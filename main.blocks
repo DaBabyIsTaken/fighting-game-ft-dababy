@@ -273,7 +273,7 @@ eeeeccccccccccccccceeeeeeeeeeeeeeeeeeeeeeeccccccccccccccccccccccceeeeeeeeeeeeeee
 eeeeeeeeeeeeeeeeeeeeecccccccccccccccccccccccccccccccccccccccccccccccceeecccccccccccccccccccccccccccccceeeeeeeeeecccccccccccccccccccccccccccccccccceeeeeeeeeeeeee
 eeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeccccccccccccccccccccccccccceeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeecccccccccceeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee
 eeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeecccccceeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee
-`</field><data>{"commentRefs":[],"fieldData":{"img":"IU0OIDTS(gY)SNa7zE}1"}}</data></shadow></value></block><block type="mixer_play_sound_until_done" id="e)@M*h+-IX|$|w|z.vp9" disabled="true" x="70" y="490"><field name="sound">music.baDing</field><next><block type="variables_set" id="wawGG0)=%yv!}G_2[_Zl" disabled="true"><field name="VAR" id="1*6]vVuSu[JKC]-n)(,w">mySprite2</field><value name="VALUE"><shadow xmlns="http://www.w3.org/1999/xhtml" type="math_number"><field name="NUM">0</field></shadow><block type="spritescreate" id="1DW/q(=Fn}NILN(B3{d[" disabled="true"><value name="img"><shadow type="screen_image_picker" id=")/H%y+eN2hF!Ct~t8=)C" disabled="true"><field name="img">img`
+`</field><data>{"commentRefs":[],"fieldData":{"img":"IU0OIDTS(gY)SNa7zE}1"}}</data></shadow></value></block><block type="mixer_play_sound_until_done" id="e)@M*h+-IX|$|w|z.vp9" disabled="true" x="70" y="490"><field name="sound">music.baDing</field></block><block type="variables_set" id="wawGG0)=%yv!}G_2[_Zl" disabled="true" x="50" y="730"><field name="VAR" id="1*6]vVuSu[JKC]-n)(,w">mySprite2</field><value name="VALUE"><shadow xmlns="http://www.w3.org/1999/xhtml" type="math_number"><field name="NUM">0</field></shadow><block type="spritescreate" id="1DW/q(=Fn}NILN(B3{d[" disabled="true"><value name="img"><shadow type="screen_image_picker" id=")/H%y+eN2hF!Ct~t8=)C" disabled="true"><field name="img">img`
 . . . . . . . . . . . . . . . . 
 . . . . . . . . . . . . . . . . 
 . . . . . . . . . . . . . . . . 
@@ -290,4 +290,4 @@ eeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeecccccceeeeeeeeeee
 . . . . . . . . . . . . . . . . 
 . . . . . . . . . . . . . . . . 
 . . . . . . . . . . . . . . . . 
-`</field><data>{"commentRefs":[],"fieldData":{"img":")/H%y+eN2hF!Ct~t8=)C"}}</data></shadow></value><value name="kind"><shadow type="spritekind" id="sL=iuz+tt.c^%1-upb$`" disabled="true"><field name="MEMBER">Player</field></shadow></value></block></value></block></next></block></xml>
+`</field><data>{"commentRefs":[],"fieldData":{"img":")/H%y+eN2hF!Ct~t8=)C"}}</data></shadow></value><value name="kind"><shadow type="spritekind" id="sL=iuz+tt.c^%1-upb$`" disabled="true"><field name="MEMBER">Player</field></shadow></value></block></value></block></xml>
