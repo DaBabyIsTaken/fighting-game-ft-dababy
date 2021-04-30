@@ -122,6 +122,8 @@ controller.A.onEvent(ControllerButtonEvent.Pressed, function () {
         eeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeecccccceeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee
         `)
     mySprite3.destroy()
+})
+function doSomething (mySprite: Sprite) {
     mySprite = sprites.create(img`
         ...........ffffffffffff.........
         ..........f6688188888df.........
@@ -157,8 +159,9 @@ controller.A.onEvent(ControllerButtonEvent.Pressed, function () {
         ................................
         `, SpriteKind.Player)
     controller.moveSprite(mySprite)
+    mySprite.setPosition(24, 100)
     mySprite.setStayInScreen(true)
-})
+}
 let mySprite: Sprite = null
 let mySprite3: Sprite = null
 scene.setBackgroundImage(img`
@@ -346,3 +349,4 @@ mySprite3 = sprites.create(img`
     ........................................................................................................................
     `, SpriteKind.Player)
 mySprite3.setPosition(120, 114)
+doSomething(mySprite)
